@@ -287,3 +287,16 @@ h4{
 
   font-weight: 700;
 }
+
+@media (min-width:768px){
+
+  .grid{
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .columna-6{
+    flex: 0 0 calc(50% - 1rem);
+  }
+}
